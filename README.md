@@ -1,13 +1,74 @@
-# React + Vite
+## Weather Dashboard Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple single-page application built with React.js that displays a structured dashboard layout. The application is composed of modular components for a clean and maintainable code structure.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Component-Based Architecture: The application is broken down into reusable components: Navbar, Header, and Dashboard.
 
-## Expanding the ESLint configuration
+- Search Functionality: A search bar in the Header component allows users to input text.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# weather-react" 
+- Dashboard Display: The Dashboard component is designed to display content, such as a weather card, based on user input.
+
+- Responsive Design: The CSS is structured to prevent layout issues like overlapping elements.
+
+---
+
+## Technologies Used
+React.js
+JavaScript
+HTML
+CSS 
+
+---
+
+## Setup and Installation
+**Clone the repository:**
+```
+git clone https://github.com/AkshatKardak/weather-react.git
+cd weather-app-react
+```
+
+Install dependencies:
+
+```
+npm install
+npm start
+The application will be available at http://localhost:5173.
+```
+---
+
+## File Structure
+````
+.
+└── src/
+    ├── assets/
+    │   ├── logo.png
+    │   ├── sun-cloudy.png
+    │   ├── rain.png
+    │   ├── partly-sunny.png
+    │   ├── sun-windy.png
+    │   ├── compass.png
+    │   ├── drops.png
+    │   └── ultraviolet.png
+    ├── components/
+    │   ├── Dashboard/
+    │   │   ├── Dashboard.css
+    │   │   └── Dashboard.jsx
+    │   ├── Header/
+    │   │   ├── Header.css
+    │   │   └── Header.jsx
+    │   └── Navbar/
+    │       ├── Navbar.css
+    │       └── Navbar.jsx
+    ├── App.css
+    ├── App.jsx
+    └── index.css
+
+````
+---
+
+## Contributors
+Akshat Kardak - GitHub Profile **"https://github.com/AkshatKardak"**
+
